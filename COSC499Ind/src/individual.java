@@ -19,13 +19,12 @@ public class individual {
 		if(temp.equals("right")){//This if statement checks if the right has been input by the user, to check to add 1
 			return 1;
 		}else {
-			return 0;
+			return 0;2
 	    }
 	}
-}
 	public static int left(String temp) {
-		if(temp.equals("left")){//This if statement checks if the left has been input by the user, to check to add 1
-			return 1;
+		if(temp.equals("left")){//This if statement checks if the left has been input by the user, to check to decrease by 1
+			return -1;
 		}else {
 			return 0;
 		}

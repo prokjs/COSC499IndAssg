@@ -7,7 +7,7 @@ class individualTest {
 	
 	@Test
 	void testRight() {
-		assertEquals(1, individual.right("right")); //checks if the method right is outputing the correct value (1) when input "right".
+		assertEquals(-1, individual.right("left")); //checks if the method left is outputing the correct value (-1) when input "left".
 	}
 
 }

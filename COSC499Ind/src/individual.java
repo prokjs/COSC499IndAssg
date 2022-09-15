@@ -8,13 +8,16 @@ public class individual {
 		System.out.println("Your number is " + rand);
 		System.out.println("Choose right");
 		String temp = scan.nextLine();
-		if(temp.equals("right")){//This if statement checks if the left has been input by the user, to check to add 1 or say invalid
-			rand++;
-			System.out.println(rand);
-		}else {
-			System.out.println("Invalid Input");
-		}
+		rand += right(temp);
+		System.out.println(rand);
 		scan.close();
 	}
-
+	
+	public static int right(String temp) {
+		if(temp.equals("right")){//This if statement checks if the left has been input by the user, to check to add 1
+			return 1;
+		}else {
+			return 0;
+		}
+	}
 }

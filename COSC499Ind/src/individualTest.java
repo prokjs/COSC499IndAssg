@@ -9,5 +9,9 @@ class individualTest {
 	void testRight() {
 		assertEquals(1, individual.right("right")); //checks if the method right is outputing the correct value (1) when input "right".
 	}
+	
+	void testleft() {
+		assertEquals(1, individual.left("left")); //checks if the method left is outputing the correct value (1) when input "left".
+	}
 
 }
